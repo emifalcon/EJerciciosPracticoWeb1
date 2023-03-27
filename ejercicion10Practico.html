@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Ejemplo de tablas en HTML</title>
+        <style>
+            table {
+              border-collapse: collapse;<!--Establecer los colores dentro de la tabla-->
+            }
+            td {
+              border: 1px solid rgb(17, 75, 236);<!--El border de la fila y asignar el color: blue-->
+              padding: 5px;<!--establece que todas las celdas de la tabla tendrán un borde sólido de 1 píxel de ancho 
+                en el color azul con un espacio de relleno de 5 píxeles de linea de pared columna.-->
+            }
+          </style>
+      </head>
+      <body>
+        <table>
+          <caption>Tabla 1</caption>
+          <tr>
+            <td>Fila 1, Columna 1</td>
+            <td>F1, Columna 2</td>
+            <td>F1, Columna 3</td>
+          </tr>
+          <tr>
+            <td>Fila 2, Columna 1</td>
+            <td>F2, Columna 2</td>
+            <td>F2, Columna 3</td>
+          </tr>
+          <tr>
+            <td>Fila 3, Columna 1</td>
+            <td>F3, Columna 2</td>
+            <td>F3, Columna 3</td>
+          </tr>
+        </table>
+    
+        <table>
+          <caption>Tabla 2</caption>
+          <tr>
+            <td>Fila 1, Columna 1</td>
+            <td>F1, Columna 2</td>
+            <td>F1, Columna 3</td>
+            <td>F1, Columna 4</td>
+          </tr>
+          <tr>
+            <td>Fila 2, Columna 1</td>
+            <td>F2, Columna 2</td>
+            <td>F2, Columna 3</td>
+            <td>F2, Columna 4</td>
+          </tr>
+        </table>
+    
+        <table>
+          <caption>Tabla 3</caption>
+          <tr>
+            <td rowspan="3">Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+          </tr>
+          <tr>
+            <td>Celda 6</td>
+            <td>Celda 7</td>
+          </tr>
+        </table>
+    
+        <table>
+            <caption>Tabla 4</caption>
+            <tr><!--1 fila y 3 columnas.-->
+              <td rowspan="2">Celda 1</td><!-- 1 columna y 1 fila-->
+              <td rowspan="3">Celda 3</td><!--Este ocupa los 3 espacios de la fila 2  ,3 y columna 2-->
+              <td>Celda 4</td>
+            </tr>
+            <tr><!--segunda fila y 3 columnas.-->
+              <td>Celda 5</td>
+             
+            </tr>
+            <tr><!--tercera fila y  3 columnas.-->
+              <td rowspan="1" >Celda 2</td><!-- 1 columna y 3 fila-->
+              <td>Celda 8</td><!-- 3 columna y 3 fila-->
+              
+            </tr>
+          </table>
+          
+      </body>
+    </html>
+
