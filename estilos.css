@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    border: 6px double rgb(151, 148, 148);
+    background-color: rgb(161, 159, 159);
+    border-spacing: 12px;
+  }
+  
+  thead th {
+    border: 2px solid #2bbe9f;
+    background-color: #2fc0a1;
+    color: #fff;
+    padding: 4px;
+  }
+  
+  tbody td {
+    border: 2px ridge #ff8c00;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 4px;
+  }
+  
